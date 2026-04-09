@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
 </head>
 <style>
     body{
@@ -13,11 +13,18 @@
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
+        background-attachment: fixed;
+
+        /* shorthand - background
+            color > image > position > repeat > [size] > attachment
+        */
+
+        background: black url(imagens/wallpaper002.jpg) center center no-repeat cover fixed;
     }
 
     main{
         background-color: white;
-        width: 400px;
+        max-width: 700px;
         padding: 10px;
         margin: auto;
         border: 1px solid darkblue;
@@ -28,7 +35,7 @@
     <main>
         <h1>Teste de Imagem de Fundo</h1>
         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto et enim minima veniam, sed sequi ad exercitationem beatae recusandae reprehenderit omnis, quidem praesentium nobis laboriosam, maiores officiis animi! Odit, blanditiis! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, quas architecto. Nihil maiores eaque ab illo suscipit fugit. Necessitatibus voluptatum nostrum sapiente placeat odit dicta veritatis culpa? Officia, dignissimos quia? Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, laudantium. Voluptates dolore in dolorem delectus perferendis architecto corrupti suscipit voluptate perspiciatis quis. Temporibus obcaecati, quam itaque vel impedit eveniet ducimus!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto et enim minima veniam, sed sequi ad exercitationem beatae recusandae reprehenderit omnis, quidem praesentium nobis laboriosam, maiores officiis animi! Odit, blanditiis! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, quas architecto. Nihil maiores eaque ab illo suscipit fugit. Necessitatibus voluptatum nostrum sapiente placeat odit dicta veritatis culpa? Officia, dignissimos quia? Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, laudantium. Voluptates dolore in dolorem delectus perferendis architecto corrupti suscipit voluptate perspiciatis quis. Temporibus obcaecati, quam itaque vel impedit eveniet ducimus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo porro totam quidem libero placeat veniam provident qui voluptate adipisci illo numquam autem iure accusantium quis, necessitatibus nostrum dolore debitis nesciunt? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo explicabo enim, animi aliquid, quasi facilis, nulla laborum ipsam asperiores sint quisquam nisi consequuntur inventore possimus aliquam vero est! Neque, quibusdam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, quam. Corporis quia, neque sequi at accusamus ipsa in quibusdam sit omnis, laudantium quasi amet obcaecati cupiditate eos! Adipisci, necessitatibus in? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem temporibus eum deserunt, quia voluptate pariatur impedit necessitatibus corrupti dicta ratione excepturi laboriosam eius quo minima. Aspernatur quam illo atque fugiat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque illum voluptatem recusandae? Reprehenderit quaerat iste dolorem iusto qui numquam, facere reiciendis suscipit magnam incidunt saepe quod temporibus non, iure ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. In, nulla sequi. Recusandae facere exercitationem cumque, adipisci accusantium sunt iste ab esse, dolores suscipit, magnam non reprehenderit! Tenetur fugit aliquam officiis.
         </p>
     </main>
 </body>
